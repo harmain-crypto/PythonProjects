@@ -1,0 +1,24 @@
+# num_input = "Enter a number: "
+# num = input(num_input)
+# name_input="Enter your name: "
+# name = input(name_input)
+# print("Your name is",name,"and the number you enter is ",num)
+# # or
+# print(f"Your name is \t{name},\n and the number you enter is {num}")
+
+x= int(input("Enter num1: "))
+y= int(input("Enter num2: "))
+print(x+y)
+
+
+
+
+
+
+
+
+
+
+
+
+

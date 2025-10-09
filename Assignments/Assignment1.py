@@ -1,8 +1,15 @@
-fruits = ["apple","Banana","cherry"]
-print("The names of fruits are :")
-for fruit in fruits:
-    print(fruit)
-y = int(input("Enter the table number: "))
-for x in range(1,11):
-    print(f"{y} x {x}= {y*x}")
-
+while True:
+    marks = float(input("Enter your Marks(0-100):"))
+    if marks<100:
+        break
+    print("Wrong Number")  
+if marks > 90:
+    remarks = "Good"
+elif marks>80:
+    remarks = "you can do better"
+elif marks>70:
+    remarks ="you need to improve"
+else:
+    remarks = "You are faild"
+print(remarks)
+# Next Program
